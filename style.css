@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url('./img/pexels-abhishek-rana-4188296\ \(1\).jpg') no-repeat center center/cover ;
+    height: 100vh;
+    overflow: hidden;
+}
+.text-primary{
+    color: rgba(170, 8, 8, 0.698);
+}
+/* Pokemon */
+  
+.move{
+    display: inline-block;
+    margin-top: 10px;
+ 
+}
+
+/*  */
+.container{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 236, 241);
+}
+
+#upper-bar{
+    position: fixed;
+    top: 0px;
+    width: 39.7%;
+    padding: 20px;
+    background-color: rgb(170, 8, 8);
+    margin-bottom: 2rem;
+}
+
+#input{
+    padding: 10px 20px;
+    width: 80%;
+    background-color: rgba(235, 230, 230, 0.808);
+    color: #333;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.568);
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+color:  #333;
+background-color: rgba(3, 80, 3, 0.568);
+}
+
+#screen{
+background-color: rgba(54, 54, 54, 0.157);
+width: 80%;
+padding: 0 100px;
+border: rgb(75, 72, 72) 2px solid;
+}
+
+.name{
+    text-align: center;
+    color:  rgba(170, 8, 8, 0.945);
+}
+
+
+
+#content li{
+    list-style: none;
+    line-height: 1.8rem;
+}
+.pokeball{
+    margin-top: 2rem;
+}
+
+#screen-alert{
+    background-color: rgb(199, 2, 2);
+    padding: 0 21%;
+    color: white;
+    visibility: hidden;
+}
+
+ 

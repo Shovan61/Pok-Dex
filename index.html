@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>PokeDex</title>
+</head>
+<body>
+    <div class="container">
+        <img class="pokeball" src="./img/pokeball.png" height="40px" width="40px" alt="pokeball">
+        <div id="upper-bar"></div>
+        <h1><span class="text-primary">Poké</span>Dex</h1>
+        <input type="text" id="input" placeholder="Enter Pokemon Name or Id">
+        <div>
+            <button class="btn" id="search">Search</button>
+            <button class="btn" id="clear">Clear</button>
+        </div>
+        <section id="screen">
+            <!-- <img src="" height="100%" width="100%" alt="image">  -->
+        </section>
+        <div id="screen-alert">
+            <p>Please Enter a valid Pokemon</p>
+        </div>
+        <div class="move">
+        <button id="move-left"><i class="fas fa-chevron-circle-left fa-2x"></i></button>
+        <button id="move-middle"><i class="fas fa-angle-double-down fa-2x"></i></button>
+        <button id="move-right"><i class="fas fa-chevron-circle-right fa-2x"></i></button>
+        </div>
+        
+
+        <section id="content">
+         <!-- <div class="name"><h2>Pikachu</h2></div>   
+         <div class="info-left">
+          <ul>
+            <li><strong>Species</strong>:- </li>
+            <li><strong>Height</strong>:- </li>
+            <li><strong>Weight</strong>:- </li>
+            <li><strong>Id</strong>:- </li>
+            <li><strong>Base Experience</strong>:- </li>
+          </ul>
+         </div> -->
+         
+        </section>
+
+        
+    </div>
+    
+    <script src="pokemon.js"></script>
+    <script src="ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
